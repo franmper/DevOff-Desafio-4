@@ -1,0 +1,29 @@
+{
+  "name": "DevOff-Desafio-4",
+  "version": "1.0.0",
+  "description": "![](https://static-cdn.jtvnw.net/jtv_user_pictures/fb425ddf-5e67-4c84-9210-8065809675f7-profile_banner-480.png) # Desafío 4 - 23/08/2020",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franmper/DevOff-Desafio-4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franmper/DevOff-Desafio-4/issues"
+  },
+  "homepage": "https://github.com/franmper/DevOff-Desafio-4#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

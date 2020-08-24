@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>Chat DevOff</h1>
+    </nav>
+    <div>
+      <div>
+        <ul id="users-connected"></ul>
+      </div>
+      <div id="output"></div>
+      <div>
+        <form>
+          <div>
+            <label>Nombre</label>
+            <input type="text" id="name" />
+          </div>
+          <div>
+            <label>Mensaje</label>
+            <input type="text" id="message"/>
+          </div>
+          <button type="submit" id="button">Enviar</button>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="./js/chat.js"></script>
+  </body>
+</html>
